@@ -23,7 +23,7 @@ function Header() {
         </button>
       </nav>
       {navbarOpen ? <NavBar className="open" type={'mobile'}/> : <></>}
-      {/* <NavBar /> */}
+      <NavBar className="" type={'web'}/>
     </header>
   );
 }
