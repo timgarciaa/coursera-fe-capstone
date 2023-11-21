@@ -23,7 +23,7 @@ function NavBar({ type }) {
         <Link className="navlink" to="/">
           <h3>Menu</h3>
         </Link>
-        <Link className="navlink" to="/">
+        <Link className="navlink" to="/reservations">
           <h3>Reservations</h3>
         </Link>
         <Link className="navlink" to="/">

@@ -13,6 +13,7 @@ Link:link {
   padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 0.2rem;
   font-size: 1.5rem;
+  border-width: 1px;
 }
 
 .action-button:hover {
@@ -22,6 +23,18 @@ Link:link {
   border-width: 1px;
   border-color: #edefee;
   transition: 0.2s;
+}
+
+input,
+select,
+option,
+textarea {
+  background-color: #eeeeee;
+  border: none;
+  padding: 5px 5px 5px 5px;
+  border-radius: 0.2rem;
+  resize: none;
+  font-size: 1.25rem;
 }
 /* Header */
 
@@ -328,6 +341,27 @@ footer > menu {
 
   background-color: white;
   padding: 0.5rem;
+}
+
+/* Reservation */
+
+.reservation {
+  padding: 2rem 5rem 2rem 5rem;
+}
+
+.reservation-form {
+  padding: 2rem 5rem 2rem 5rem;
+  animation-duration: 0.33s;
+  animation-timing-function: ease-in-out;
+  animation-name: slideDownFade;
+}
+
+.reservation-form > .form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 300px;
+  margin-bottom: 0.95rem;
 }
 
 
